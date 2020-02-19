@@ -33,4 +33,4 @@ def get_repos(username):
         for number_repo in number_repos:
             number = number_repo['commit']['comment_count']
         repo_name = repo['name']
-        return('Repo: '+repo_name+' Number of commits: '+str(number)+'\n')
+        return('TRUE')
