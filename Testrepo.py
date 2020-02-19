@@ -17,7 +17,7 @@ class Testrepo(unittest.TestCase):
     # define multiple sets of tests as functions with names that begin
 
     def testRightTriangleA(self): 
-        self.assertEqual(get_repos('rzhong2'),'Repo: helloworld Number of commits: 0\nRepo: sw567 Number of commits: 0\nRepo: SW567_HW01 Number of commits: 0')
+        self.assertEqual(get_repos('rzhong2'),'TRUE')
 
 if __name__ == '__main__':
     print('Running unit tests')
