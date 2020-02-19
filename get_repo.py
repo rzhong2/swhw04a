@@ -12,7 +12,7 @@ import json
 def get_repos(username):
     repos_url = 'https://api.github.com/user/repos'
     # from https://github.com/user/settings/tokens
-    token = '1a6d4c036977502c121237ae729ae8a1aeb7ad25'
+    token = '9aa3f8e62e7fde45574384ec79bb84c991cf9224'
     # create a re-usable session object with the user creds in-built
     gh_session = requests.Session()
     gh_session.auth = (username, token)
