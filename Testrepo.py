@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Updated Feb 19, 2020
+Updated Feb 26, 2020
 The primary goal of this file is to demonstrate a simple unittest implementation
 
 @author: rzhong2
