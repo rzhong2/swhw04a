@@ -13,6 +13,7 @@ def get_repos(username):
     repos_url = 'https://api.github.com/user/repos'
     # from https://github.com/user/settings/tokens
     # create a re-usable session object with the user creds in-built
+    token = '3c063e779b8cdb574073284333387d3475af0a95'
     gh_session = requests.Session()
     gh_session.auth = (username, token)
 
